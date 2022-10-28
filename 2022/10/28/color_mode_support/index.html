@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+
+    <!-- ### Resource Hint ### -->
+
+    <!-- ## DNS Prefetch ## -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
+
+
+<!-- comment -->
+
+
+
+
+
+
+
+<!-- analytics -->
+
+
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+
+
+
+
+    <!-- ## Preload ## -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <meta name="renderer" content="webkit">
+
+    <!-- Title -->
+    <title>Color Mode Support | Zw</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image&#x2F;ico" href="/img/zw.ico"><link rel="apple-touch-icon" sizes="180x180" href="/img/zw.svg"><link rel="icon" typt="image&#x2F;png" sizes="32x32" href="/img/zw.png"><meta name="theme-color" content="#FC6621">
+
+    <!-- ### Import File ### -->
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
+    body {
+        background-color: #EDF1F2;
+    }
+
+    a, a:visited {
+        color: #42B4E7;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #42B4E7;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #42B4E7;
+        opacity: 1;
+    }
+
+    
+
+    .post-entry .card-body a {
+        color: #FC6621;
+    }
+
+    .avatar {
+        background: #FC6621;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #FC6621;
+    }
+
+    .navbar-link:hover {
+        color: #FC6621;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #FC6621;
+        border-color: #FC6621;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #FC6621;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #EDF1F2;
+        opacity: .85;
+    }
+</style><link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
+
+
+
+
+
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+</script>
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Zw"><meta name="msapplication-starturl" content="https://zowietao.github.io"><meta name="msapplication-navbutton-color" content="#FC6621"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zw"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="search" type="application/opensearchdescription+xml" href="zowie, blog, share, record" title="Zw">
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="Color Mode Support | Zw"><meta property="og:site_name" content="Zw"><meta property="og:type" content="article"><meta property="og:url" content="https://zowietao.github.io/2022/10/28/color_mode_support/"><meta property="og:locale" content="en"><meta name="description" content="Welcome to Zw! - Zowie - Zw"><meta name="keywords" content="react, javascript, vue, node, next"><meta property="article:published_time" content="2022-10-28T02:42:13.887Z"><meta property="article:modified_time" content="2022-10-28T08:22:12.167Z"><meta property="og:updated_time" content="2022-10-28T08:22:12.167Z"><meta property="article:author" content="Zowie"><meta property="article:tag" content="react, javascript, vue, node, next"><meta name="twitter:card" content="summary">
+
+    
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="https://zowietao.github.io/2022/10/28/color_mode_support/">
+
+    <meta name="generator" content="Hexo 4.2.1">
+
+    <!-- ### Analytics ### -->
+    
+    <!-- Google Analytics -->
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', '4175803942', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-828ZTJ1V6Q"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-828ZTJ1V6Q');
+</script>
+
+
+
+
+
+
+
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "url": "https://zowietao.github.io/2022/10/28/color_mode_support/",
+    "@type": "BlogPosting",
+    "logo": "https://zowietao.github.io/img/zw.svg",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://zowietao.github.io/2022/10/28/color_mode_support/"
+    },
+    "headline": "Color Mode Support | Zw",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://zowietao.github.io/img/zw.svg"
+    },
+    
+    "datePublished": "2022-10-28T02:42:13.887Z",
+    "dateModified": "2022-10-28T08:22:12.167Z",
+    "author": {
+        "@type": "Person",
+        "name": "Zowie",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://zowietao.github.io/img/avatar.png"
+        },
+        "description": "Discover, Learn and Share.,This is Zowie's Blog, Hi!"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Zw",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://zowietao.github.io/img/zw.svg"
+        }
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://zowietao.github.io/search?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "react, javascript, vue, node, next",
+    "description": "Welcome to Zw! - Zowie - Zw"
+}
+</script>
+
+
+
+    <!-- ### Custom Head ### -->
+    
+</head>
+
+    <body>
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">Zw</a></h1>
+
+    <p class="text-center header-slogan">
+        
+            
+                Discover, Learn and Share.<br>This is Zowie's Blog, Hi!
+            
+        
+    </p>
+
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">Home</a>
+    
+    
+        <a href="/archives/" class="navbar-link">Archives</a>
+    
+    
+        <a href="/search" class="navbar-link">Search</a>
+    
+    
+        <a href="/links" class="navbar-link">Links</a>
+    
+        <a href="/about" class="navbar-link">About</a>
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">Share</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+        <li class="menu-item">
+            <a href="http://service.weibo.com/share/share.php?appkey=&title=Zw&url=https://zowietao.github.io&pic=https://zowietao.github.io/img/zw.svg&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+        </li>
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=Zw&url=https://zowietao.github.io&via=Zowie" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://zowietao.github.io" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+        <li class="menu-item">
+            <a href="https://plus.google.com/share?url=https://zowietao.github.io" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+        </li>
+        
+
+        <!-- Share LinkedIn -->
+        
+        <li class="menu-item">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://zowietao.github.io&title=Color Mode Support" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+        </li>
+        
+
+        <!-- Share QQ -->
+        
+        <li class="menu-item">
+            <a href="http://connect.qq.com/widget/shareqq/index.html?site=Zw&title=Color Mode Support&summary=Full stack developer for hire, specialising in development of custom websites and web applications in JavaScript, React.js, Next.js, Node.js, &amp; more.&pics=https://zowietao.github.io/img/zw.svg&url=https://zowietao.github.io" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+        </li>
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=https://zowietao.github.io&text=Color Mode Support" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAAB3klEQVR42u3a0Y7CMAxE0f7/T8MrquqZcQEpcW9f2GWX5iCljuP4eC14HaBAgQJ1gTrEJW9w8ffPz53vkYwDag7KDXrn5/N9o3FAjUKdJ171fjVwiqrGAfVMVAW5CpjqFRSoKuhdLcDlgKAeh6oWympglwD+NUsAtTxKJfS/fP3ZbgbU0ihbdLixIXCB9+uqC6ilUZ1kThUuugv25WdAjUCpBThJ/KsET32ZOHiC2halEJ1Fu5PU2YkOaluUG6x6z20a1OazLMSBGoNKAlx6c1dAU18K1AxUGkDT31XS5/4X1CxUUvhSgTI50FbJJKh5qGShlZO0EXSjzBPU1qg08U82oe5gUgVgUDNQrjDReRDShovWiQOo7VDJ4U4yybtFtTh4gtoOlRTqk81DWrxtN5+C2g71bUONK2okQRTULJRK6N2mMgmwVUEu6goCtTUqnbzJYaMqksn/ATUa5Q4TU7x7UEDNRd1tGHSH2DaxS7usQW2DSor8yaRPD8HllwM1AtWejKbh786DAmoeqtt8pRbkDjraOIDaFpUU5l1RNtm0trqCQI1GJRvWCp4U0EA9D9VpBnQPQxmIQY1CJQ03dxpz0oIZqFmoTuOyKqx1Gr9sIRbUtqiVLlCgQIH6uN6TvHBPDx8K/gAAAABJRU5ErkJggg==" alr="QRCode">
+        </li>
+        
+
+    </ul>
+</div>
+    
+    
+</nav>
+</header>
+
+            
+    <!-- ## Post ## -->
+    <div class="post-container">
+    <div id="post-card" class="card">
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                <div class="card-header">
+                    
+    <h1 class="card-title h3 mb-2">Color Mode Support</h1>
+
+
+
+
+<div class="post-header-info">
+    <p class="post-header-info-left text-gray">
+        <img class="author-thumb lazyload" data-src="/img/avatar.png" src="/img/suka-lazyload.gif" alt="Zowie's Avatar">
+        <span>2022-10-28</span>
+        
+        
+            <!-- Busuanzi Post Views -->
+<span id="busuanzi_container_page_pv" hidden>
+    <span class="suka-devide-dot"></span>
+    <span></span>
+    <span id="busuanzi_value_page_pv"></span>
+    <span>Views</span>
+</span>
+        
+        
+    </p>
+    <div class="post-header-info-right">
+        
+            <div class="dropdown dropdown-right">
+<a class="dropdown-toggle" tabindex="0">Share the post</a>
+<ul class="menu share-menu">
+    <!-- Share Weibo -->
+    
+    <li class="menu-item">
+        <a href="http://service.weibo.com/share/share.php?appkey=&title=Color Mode Support&url=https://zowietao.github.io/2022/10/28/color_mode_support/&pic=https://zowietao.github.io/img/zw.svg&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+    </li>
+    
+
+    <!-- Share Twitter -->
+    
+    <li class="menu-item">
+        <a href="https://twitter.com/intent/tweet?text=Color Mode Support&url=https://zowietao.github.io/2022/10/28/color_mode_support/&via=Zowie" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+    </li>
+    
+
+    <!-- Share Facebook -->
+    
+    <li class="menu-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://zowietao.github.io/2022/10/28/color_mode_support/" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+    </li>
+    
+
+    <!-- Share Google+ -->
+    
+    <li class="menu-item">
+        <a href="https://plus.google.com/share?url=https://zowietao.github.io/2022/10/28/color_mode_support/" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+    </li>
+    
+
+    <!-- Share LinkedIn -->
+    
+    <li class="menu-item">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://zowietao.github.io/2022/10/28/color_mode_support/&title=Zw" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+    </li>
+    
+
+    <!-- Share QQ -->
+    
+    <li class="menu-item">
+        <a href="http://connect.qq.com/widget/shareqq/index.html?site=Zw&title=Zw&summary=Full stack developer for hire, specialising in development of custom websites and web applications in JavaScript, React.js, Next.js, Node.js, &amp; more.&pics=https://zowietao.github.io/img/zw.svg&url=https://zowietao.github.io/2022/10/28/color_mode_support/" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+    </li>
+    
+
+    <!-- Share Telegram -->
+    
+    <li class="menu-item">
+        <a href="https://t.me/share/url?url=https://zowietao.github.io/2022/10/28/color_mode_support/&text=Zw" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+    </li>
+    
+
+    <!-- QRCode -->
+    
+    <li class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAAB3klEQVR42u3a0Y7CMAxE0f7/T8MrquqZcQEpcW9f2GWX5iCljuP4eC14HaBAgQJ1gTrEJW9w8ffPz53vkYwDag7KDXrn5/N9o3FAjUKdJ171fjVwiqrGAfVMVAW5CpjqFRSoKuhdLcDlgKAeh6oWympglwD+NUsAtTxKJfS/fP3ZbgbU0ihbdLixIXCB9+uqC6ilUZ1kThUuugv25WdAjUCpBThJ/KsET32ZOHiC2halEJ1Fu5PU2YkOaluUG6x6z20a1OazLMSBGoNKAlx6c1dAU18K1AxUGkDT31XS5/4X1CxUUvhSgTI50FbJJKh5qGShlZO0EXSjzBPU1qg08U82oe5gUgVgUDNQrjDReRDShovWiQOo7VDJ4U4yybtFtTh4gtoOlRTqk81DWrxtN5+C2g71bUONK2okQRTULJRK6N2mMgmwVUEu6goCtTUqnbzJYaMqksn/ATUa5Q4TU7x7UEDNRd1tGHSH2DaxS7usQW2DSor8yaRPD8HllwM1AtWejKbh786DAmoeqtt8pRbkDjraOIDaFpUU5l1RNtm0trqCQI1GJRvWCp4U0EA9D9VpBnQPQxmIQY1CJQ03dxpz0oIZqFmoTuOyKqx1Gr9sIRbUtqiVLlCgQIH6uN6TvHBPDx8K/gAAAABJRU5ErkJggg==" alt="QRCode">
+    </li>
+    
+
+</ul>
+</div>
+        
+    </div>
+</div>
+                </div>
+                <div class="card-body">
+                    
+                        
+                        
+                            <div id="post-toc"><ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Color-Mode-Support"><span class="post-toc-number">1.</span> <span class="post-toc-text">Color Mode Support</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Prepare"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Prepare:</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Two-sets-of-colors"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">Two sets of colors</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Color-depth-change"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">Color depth change</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#API-and-Methods"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">API and Methods</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Steps"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Steps:</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Set-project-initial-color-mode"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">Set project initial color mode</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Set-color-value-by-‘useColorModeValue’"><span class="post-toc-number">1.3.2.</span> <span class="post-toc-text">Set color value by ‘useColorModeValue’</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Use-color-value-in-different-components-and-toggle-color-mode"><span class="post-toc-number">1.3.3.</span> <span class="post-toc-text">Use color value in different components and toggle color mode</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Other"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Other:</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Hex-with-opacity"><span class="post-toc-number">1.4.1.</span> <span class="post-toc-text">Hex with opacity</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#use-condition"><span class="post-toc-number">1.4.2.</span> <span class="post-toc-text">use condition</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Referance"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">Referance</span></a></li></ol></li></ol></div>
+                        
+                    
+                    <article id="post-content">
+                        <p>Welcome to <a href="https://www.google.com/" target="_blank" rel="noopener">Zw</a>!<br><a href="/images/boyInWC.png"></a></p>
+<a id="more"></a>
+
+<h1 id="Color-Mode-Support"><a href="#Color-Mode-Support" class="headerlink" title="Color Mode Support"></a>Color Mode Support</h1><h2 id="Prepare"><a href="#Prepare" class="headerlink" title="Prepare:"></a>Prepare:</h2><h3 id="Two-sets-of-colors"><a href="#Two-sets-of-colors" class="headerlink" title="Two sets of colors"></a>Two sets of colors</h3><p>Two sets of colors, before starting work, we should known what the result is.</p>
+<blockquote>
+<p>Eg: projectBackground: (#ffffff, #000000), projectColor: (#000000, #ffffff)<br>This means that when in light mode, the background is black and other content such as text is white, while in dark mode the opposite result.</p>
+</blockquote>
+<h3 id="Color-depth-change"><a href="#Color-depth-change" class="headerlink" title="Color depth change"></a>Color depth change</h3><p>The result of the color depth change allows us to get the correct effect in some hovering effects.</p>
+<blockquote>
+<p>Eg: Button background color is blue, and hovering we can get correct color by background color directly. This way we don’t need to additionally set the color of the suspension effect. If the effect is achieved directly through opacity, the color of the text will also change accordingly.</p>
+</blockquote>
+<p>So we need a way to get the result by passing the color and the opacity we want to change — hexWithOpacity.</p>
+<h2 id="API-and-Methods"><a href="#API-and-Methods" class="headerlink" title="API and Methods"></a>API and Methods</h2><p>Method to change color mode and get the color of components.<br>We can use <strong>‘useColorModeValue’</strong> to set a variable value , through which we can get the set color in different color modes.<br>Use toggleColorMode to toggle the global color mode.</p>
+<h2 id="Steps"><a href="#Steps" class="headerlink" title="Steps:"></a>Steps:</h2><h3 id="Set-project-initial-color-mode"><a href="#Set-project-initial-color-mode" class="headerlink" title="Set project initial color mode"></a>Set project initial color mode</h3><figure class="highlight plain"><figcaption><span>Text</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; _document.tsx</span><br><span class="line">import &#123;ColorModeScript&#125; from &#39;@chakra-ui&#x2F;react&#39;</span><br><span class="line">&#x2F;&#x2F; ...</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        &lt;ColorModeScript initialColorMode&#x3D;&#123;&#39;light&#39; | &#39;dark&#39; | &#39;system&#39;&#125; &#x2F;&gt;</span><br><span class="line"></span><br><span class="line">    &lt;&#x2F;body&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Set-color-value-by-‘useColorModeValue’"><a href="#Set-color-value-by-‘useColorModeValue’" class="headerlink" title="Set color value by ‘useColorModeValue’"></a>Set color value by ‘useColorModeValue’</h3><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// hooks/base/useColor.ts</span></span><br><span class="line"><span class="keyword">import</span> &#123; useColor, useColorModeValue &#125; <span class="keyword">from</span> <span class="string">'@chakra-ui/react'</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">useColor</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> &#123; toggleColorMode &#125; = useColorMode();</span><br><span class="line">  <span class="keyword">const</span> someBg = useColorModeValue(<span class="string">'#0074e0'</span>, <span class="string">'#0074e0'</span>); <span class="comment">// light , black</span></span><br><span class="line">  <span class="keyword">const</span> someColor = useColorModeValue(<span class="string">'#000000'</span>, <span class="string">'#ffffff'</span>); <span class="comment">// light , black</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">      switchTheme: toggleColorMode,</span><br><span class="line">      someBg,</span><br><span class="line">      someColor</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Use-color-value-in-different-components-and-toggle-color-mode"><a href="#Use-color-value-in-different-components-and-toggle-color-mode" class="headerlink" title="Use color value in different components and toggle color mode"></a>Use color value in different components and toggle color mode</h3><p>use like:</p>
+<figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123;someBg, someColor, toggleColorMode&#125; = useColor()</span><br><span class="line"><span class="comment">// ...</span></span><br><span class="line">&lt;SomeComponents</span><br><span class="line">    bg=&#123;someBg&#125;</span><br><span class="line">    color=&#123;someColor&#125;</span><br><span class="line">&gt;</span><br><span class="line">    &lt;Button onClick=&#123;toggleColorMode&#125;&gt;<span class="keyword">switch</span> color mode&lt;<span class="regexp">/Button&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>SomeComponents&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Other"><a href="#Other" class="headerlink" title="Other:"></a>Other:</h2><h3 id="Hex-with-opacity"><a href="#Hex-with-opacity" class="headerlink" title="Hex with opacity"></a>Hex with opacity</h3><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> hexWithOpacity: <span class="function">(<span class="params">hexValue: <span class="built_in">string</span>, opacity?: <span class="built_in">number</span></span>) =&gt;</span> <span class="built_in">string</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> &#123; btnBlueBg &#125; = useColor()</span><br><span class="line"><span class="keyword">const</span> hoverBg = hexWithOpacity(btnBlueBg, <span class="number">0.8</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="use-condition"><a href="#use-condition" class="headerlink" title="use condition"></a>use condition</h3><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;Button</span><br><span class="line">    bg=&#123;btnBlueBg&#125;</span><br><span class="line">    _hover=&#123;&#123;</span><br><span class="line">        bg:hexWithOpacity(btnBlueBg, <span class="number">0.8</span>)</span><br><span class="line">        &#125;&#125;</span><br><span class="line">&gt;</span><br><span class="line">    holy</span><br><span class="line">&lt;<span class="regexp">/Button&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Referance"><a href="#Referance" class="headerlink" title="Referance"></a>Referance</h2><blockquote>
+<p><a href="https://chakra-ui.com/docs/styled-system/color-mode" target="_blank" rel="noopener">chakra-ui | color mode</a></p>
+</blockquote>
+
+                    </article>
+                    
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">This article was last updated on <span id="date-expire-num"></span> days ago, and the information described in the article may have changed.</blockquote>
+    <script>
+    (function() {
+        var dateUpdate = Date.parse("2022-10-28");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    })();
+    </script>
+
+
+<p class="post-footer-info mb-0 pt-0">Published at&nbsp;<time datetime="2022-10-28T02:42:13.887Z" itemprop="datePublished">2022-10-28</time>
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+
+</p>
+
+                </div>
+                <div class="post-nav px-2 bg-gray">
+<ul class="pagination">
+    <!-- Prev Nav -->
+    
+
+    <!-- Next Nav -->
+    
+</ul>
+</div>
+
+                
+                    <!-- # Comment # -->
+                    
+                        <div class="card-footer post-comment">
+                            <div id="disqus_thread"></div>
+
+<div class="btn_click_load"> 
+    <button id="disqus_click_btn" class="btn">Read the comment (Make sure that disqus can load properly)</button>
+</div>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://zowietao.github.io/2022/10/28/color_mode_support/'; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://zowietao.github.io/2022/10/28/color_mode_support/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script id="disqus-lazy-load-script">
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://disqus.com/next/config.json', true);
+    xhr.timeout = 4000;
+    xhr.send();
+    xhr.onload = function() {
+        if(this.status == 200||this.status == 304){
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//zowietao.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+            document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
+        }
+    };
+    xhr.ontimeout = function(e) {
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
+    };
+    xhr.onerror = function(e) {
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
+    };
+    document.getElementById('disqus_click_btn').onclick=function() { //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//zowietao.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
+    };
+</script>
+
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    
+        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span></p>
+
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    <a href="http://www.google.com" target="_blank" rel="noopener" >不备案号-11415</a><br>Hosted on <a href="https://github.com/zowietao" target="_blank" rel="noopener" >Github Pages</a>
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+
+        
+        Powered by&nbsp;<!--
+         --><a href="https://github.com/zowietao" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Zowie</a>
+    </p>
+</footer>
+
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+
+    
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+
+(function() {
+    var copyrightNow = new Date().getFullYear();
+    var copyrightContent = document.getElementById('copyright-year');
+    var copyrightSince = 1999;
+    if (copyrightSince === copyrightNow) {
+        copyrightContent.textContent = copyrightNow;
+    } else {
+        copyrightContent.textContent = copyrightSince + ' - ' + copyrightNow;
+    }
+})();
+
+</script>
+
+<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+
+<!-- Offset -->
+
+
+
+
+<!-- Comment -->
+
+    
+        
+    
+
+
+<!-- ### Custom Footer ### -->
+
+    </body>
+
+</html>
